@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+.external-css-font-file {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+
+.import-font-file{
+    font-family: "Montserrat",sans-serif;
+    font-size: 22px;
+}
+
+.external-google-font-declaration-with-link-inside-html{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#welcome p span{
+    font-size:60px;
+    font-family: "Roboto";
+}
+
+.example-specificy .explanation-div .hello #rock {
+    color: green;
+    font-family: "Roboto";
+}

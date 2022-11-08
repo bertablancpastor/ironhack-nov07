@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Site</title>
+
+    <!-- CSS Style tag to use within the head tag -->
+    <style>
+        *{
+            box-sizing: border-box;
+            /*margin: 0;*/
+        }
+
+        body {
+            color: #333;
+            font-family:Arial, Helvetica, sans-serif;
+            line-height: 1.4;
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        #header{
+            margin-bottom: 15px;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        #main{
+            float:left;
+            width: 69%;
+        }
+
+        #sidebar{
+            float:right;
+            width: 29%;
+        }
+
+        .clr{
+            clear: both;
+        }
+
+        #footer{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .text-center{
+            display: block;
+            text-align: center;
+        
+        }
+
+        .card{
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+            border: solid 1px black;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="card"> 
+        <h1 class="text-center">My Website</h1>
+        <p class="text-center">Just another website</p>
+    </header>
+
+    <!-- Main content -->
+    <main id="main">
+        
+        <!-- welcome section -->
+        <section id="welcome" class="card">
+            <h2>Welcome to our website</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque enim, repudiandae blanditiis, labore ab optio consectetur quaerat non earum necessitatibus placeat cupiditate, sed suscipit debitis magni fuga accusantium a expedita. <br />
+                <a href="#" class="text-center">Click for more</a>
+            </p>
+        </section>
+        <!-- blog section -->
+        <section>
+            <h2>From Our Blog</h2>
+        </section>
+        <article>
+            <h3>Article One</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, accusantium doloribus tenetur veritatis temporibus assumenda ab eligendi! Quasi adipisci ut, modi voluptate atque culpa maxime quas nobis velit id exercitationem!</p>
+        </article>
+        <article>
+            <h3>Article Two</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, accusantium doloribus tenetur veritatis temporibus assumenda ab eligendi! Quasi adipisci ut, modi voluptate atque culpa maxime quas nobis velit id exercitationem!</p>
+        </article>
+
+    </main>
+
+    <!-- Aside Content -Sidebar -->
+    <aside id="sidebar" class="card">
+        <!-- title -->
+        <h3>Navigation</h3>
+        <!-- Navigation -->
+        <nav>
+            <ul id="mainbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <hr />
+        <button>Contact Us</button>
+        <ul>
+            <li><strong>Adress:</strong>1234 Abbery road, Birmingham, 17137, UK</li>
+            <li><strong>Phone:</strong>+49 1234</li>
+            <li><strong>Email:</strong>info@aberryroad.com</li>
+        </ul>
+    </aside>
+    <div class="clr"></div>
+
+    <!-- Footer  -->
+    <footer id="footer">
+        <p class="text-center">Copyright &copy;; My website 2022</p>
+    </footer>
+
+</body>
+</html>
