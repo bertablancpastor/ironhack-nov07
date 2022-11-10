@@ -1,0 +1,118 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* general styling */
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
+
+header {
+    height: 500px;
+    background-image: url("/labs/lab-css-recipes-clone-master/apple-pie/images/apple-pie.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+header h1{    
+    color: white;
+    font-size: 3.5rem;  
+    font-weight: 100;
+  }
+/* main section images */
+
+main img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* main section padding refactor */
+
+main section {
+    padding: 2rem 0;
+  }
+
+  /* main section */
+
+  main {
+    padding: 4rem;
+  }
+
+  #recepie-information p{
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0 0 2rem 0;
+    text-align:justify
+  }
+/* 
+  #recepie-information img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+  } */
+
+  /* ingredient section */
+
+/* This block is in the main section block */
+  /* #ingredients {
+    padding: 2rem 0;
+  } */
+
+  #ingredients ul{
+    list-style-type: "- ";
+    margin: 0 0 3rem 2rem;
+  }
+
+  #ingredients li {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  #ingredients img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+ /* direction section */
+
+ #directions ol {
+    list-style: none;
+    margin: 0 0 3rem 2rem;
+    counter-reset: section;
+
+ }
+
+ #directions ol li::before{
+    content:""counter(section)") ";
+    counter-increment: section;
+   
+ }
+ 
+ #directions li {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0.5 rem 0;
+ }
+
+
