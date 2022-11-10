@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+
+
+        /*EJERCICIO EN GRUPO*/
+        body {
+            font-family: sans-serif;
+
+        }
+
+        .form{
+            border: 1px black solid;
+            padding: 1rem;
+            margin: 20px auto;
+
+        }
+        .formLabel {
+            width: 300px;
+            margin: 20px auto;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <section id="explanation">
+        <h1>FORMS</h1>
+        <h4>Form Elements Syntax</h4>
+        <p> form: elemento padre para inicializar un formulario.</p>
+        <p> label for: son clicables y lo relaciona con el input</p>
+        <p> input: son los elementos mas usados y hay de muchos tipos</p>
+        <form id="exampleForm">
+            <label for="name">First name</label>
+        </form>
+        <p> select: son para selecionar una opcion</p>
+        <select id="prueba" name="prueba">
+        <option value="prueba1">Prueba 1</option>
+        </select>
+        <p> text area: espacio donde el usuario puede escribir en el formulario</p>
+        <textarea name="" id="" cols="" rows=""></textarea>
+        <p>button: define un click para el boton</p>
+    </section>
+
+    <h4>Form Elements</h4>
+    <h4>Form Atributes</h4>
+    <h4>Inputs Types</h4>
+    <h4>Input Atributes</h4>
+
+    <section id="form-1">
+    </section>
+
+    <hr />
+
+<!--
+    EJERCICIO EN GRUPO  -->
+    <section>
+        <form class="form" id="formInformation">
+            <!-- name -->
+        <div class="formLabel">
+            <label for="nameRegistred">Name</label>
+            <input type="text" placeholder="Enter your name" id="nameRegistred">
+        </div>
+
+            <!-- birthday -->
+            <div class="formLabel">
+                <label for="brithdayRegistred">Birthday</label>
+                <input type="date" id="birthdayRegistred" name="birthdayRegistred">
+            </div>
+
+            <!-- age -->
+            <div class="formLabel">
+                <label for="ageRegistred">Age</label>
+                <input type="number" value="1" id="ageRegistred" name="ageRegistred" min="1" max="100">
+            </div>
+
+            <!-- email -->
+            <div class="formLabel">
+                <label for="emailRegistred">Email</label>
+                <input type="email" placeholder="Enter your email"id="emailRegistred" name="emailRegistred" >
+            </div>
+
+            <!-- password (max.15 caracteres) -->
+            <!-- <div class="formLabel">
+                <label for="passwordRegistred">Password</label>
+                <input type="password" id="passwordRegistred" name="passwordRegistred" minlength="15" maxlength="15">
+            </div> -->
+
+            <!-- credit card (de 10 ) -->
+            <div class="formLabel">
+                <label for="creditCardRegistred">Credit Card</label>
+                <input type="tel" id="passwordRegistred" name="creditCardRegistred" minlength="10" maxlength="10">
+            </div>
+
+            <!-- favortie color -->
+            <div class="formLabel">
+                <label for="favortieColorRegistred">Favorite Color</label>
+                <input type="color" id="favortieColorRegistred" name="favoriteColorRegistred">
+            </div>
+
+            <!-- direction -->
+            <div class="formLabel">
+                <label for="directionRegistred">Direction</label>
+                <input type="text" placeholder="Enter your direction"id="directionRegistred" name="directionRegistred">
+            </div>
+            <!-- file -->
+            <div class="formLabel">
+                <label for="fileRegistred">File</label>
+                <input type="file" id="fileRegistred" name="fileRegistred">
+            </div>
+
+            <div class="formLabel">
+                <label for="fileRegistred">Submit</label>
+                <input type="submit" id="submitRegistred" name="submitRegistred">
+            </div>
+
+        </form>
+    </section>
+
+    <script>
+        formInformation.onsubmit = (e) => {
+            e.preventDefault();
+
+        let ageRegistred = document.querySelector("#ageRegistred").value;
+        let nameRegistred = document.querySelector("#nameRegistred").value;
+        let birthdayRegistred = document.querySelector("#birthdayRegistred").value;
+        let emailRegistred = document.querySelector("#emailRegistred").value;
+        let favoriteColorRegistred = document.querySelector("#birthdayRegistred").value;
+
+            if (nameRegistred === ""){
+                alert("Please enter your name")
+            }else{
+                alert(`Here we go, congratulations
+                you are the best
+                Name: ${nameRegistred}
+                Age: ${ageRegistred}
+                Birthday: ${birthdayRegistred}
+                Email: ${emailRegistred}
+                Favorite Color: ${favoriteColorRegistred}
+                `);
+
+            }
+        }
+
+    </script>
+
+</body>
+</html>

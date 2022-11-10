@@ -7,7 +7,20 @@
     <title>CSS Selectors</title>
 
     <style>
-        
+        #welcome p{
+            font-size: 18px;
+        }
+
+        #descending-combinator > p{
+            color: red;
+        }
+
+        /* PSEUDO CLASES DE POSICION */
+
+        .first-child-exemple p:first-child {
+            color: red;
+        }
+
     </style>
 </head>
 <body>
@@ -16,7 +29,32 @@
             <h2 class="primary-heading">Welcome</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum ipsa possimus fugiat sed nulla pariatur rem obcaecati labore voluptatem, consequatur reiciendis eum suscipit! Beatae esse soluta iure nulla cumque.</p>
         </div>
+
+        <div id="descending-combinator">
+            <p>Exemple 001</p>
+            <div>
+                <p>Exemple 002</p>
+            </div>
+        </div>
     </section>
+    <hr />
+    <div class="pseudo-classes-psotion">
+        <div class="first-child-exemple">
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+    </div>
+
+    <hr />
+    <div class="pseudo-classes-psotion">
+        <div class="first-child-exemple">
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+    </div>
+
 
 
 
