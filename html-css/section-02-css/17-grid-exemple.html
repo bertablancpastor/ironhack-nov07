@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrid Example</title>
+</head>
+
+<style>
+    .container-example-simple-grid{
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        outline: 1px solid red !important;
+        height: 20rem;
+    }
+
+    .container-example-grid-template{
+        display: grid;
+        outline: 1px solid blue !important;
+        height: 20rem;
+        grid-template: [row1-start] "header header header" 25% [row1-end] [row2-start] "footer footer footer" 25% [row2-end] / auto auto
+    }
+
+    .container-example-grid-items{
+        display: grid;
+        outline: 1px solid green !important;
+        height: 20rem;
+        grid-template-columns: 40px 50px auto 50px 40px;
+        grid-template-rows: 25% 100px auto;
+    }
+
+    .container-example-grid-items-1{
+        display: grid;
+        outline: 1px solid green !important;
+        height: 20rem;
+        grid-template-columns: 40px 50px auto 50px 40px;
+        grid-template-rows: 25% 100px auto;
+    }
+
+    .item-a{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .item-b{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        background-color: black;
+    }
+
+
+</style>
+
+
+<body>
+
+    <div class="container-example-simple-grid"></div>
+
+    <div class="container-example-grid-template"></div>
+
+    <div class="container-example-grid-items">
+        <div class="item-a"></div>
+    </div>
+    <div class="container-example-grid-items-1">
+        <div class="item-b"></div>
+    </div>
+</body>
+</html>
