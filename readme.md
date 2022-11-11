@@ -112,8 +112,13 @@ git push
 ## Día 5 - 11NOV2022 📆
 #Actualizar README
 # CSS
-<p> CSS 01/02/03/04/05/06 <p>
+<p>17-grud-basic<p>
 
+# Practice Lab
+<p>Clone Spotify<p>
+
+# Other
+<p>Visualización prsentación grupo fullstack: "Apadrina tu mascota"</p>
 <hr />
 
 
