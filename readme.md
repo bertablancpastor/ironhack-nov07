@@ -3,6 +3,7 @@
 <hr/>
 
 ## Día 1 - 07NOV2022 📆
+#Iniciar README
 ## Terminator | Comandos GIT 
 <p>Para subir los cambios a GIT se deben hacer los siguientes passos</p>
 <ol>
@@ -41,7 +42,6 @@ git push origin "nombre del branch/rama que estaremos apuntando"
 ```bash
 git push
 ```
-
 ## Html 
 <p>01-basic-layout</p>
 <p>02-meta-tags</p>
@@ -52,6 +52,7 @@ git push
 <hr />
 
 ## Día 2 - 08NOV2022 📆
+#Actualizar README
 # Html
 <p>06-basic-layout</p>
 <p>07-layout</p>
@@ -76,6 +77,8 @@ git push
 <hr />
 
 ## Día 3 - 09NOV2022 📆
+#Actualizar README
+
 # Leson section Html 
 <p>14-forms</p>
 
@@ -90,6 +93,8 @@ git push
 <hr/>
 
 ## Día 4 - 10NOV2022 📆
+#Actualizar README
+
 # CSS
 <p>10-menu-styling<p>
 <p>11-position<p>
@@ -99,9 +104,13 @@ git push
 <p>14-media-query-exemple<p>
 <p>16-flex-basics<p>
 
+# Practice Lab
+<p>Clone Spotify<p>
+
 <hr />
 
 ## Día 5 - 11NOV2022 📆
+#Actualizar README
 # CSS
 <p> CSS 01/02/03/04/05/06 <p>
 
