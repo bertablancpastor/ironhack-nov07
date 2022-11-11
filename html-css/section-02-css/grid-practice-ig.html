@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+</head>
+
+<!-- CSS STYLE -->
+<style>
+
+*{
+    font-family: sans-serif;
+}
+.container{
+        display: grid;
+        grid-template-areas:
+        "divIzquierdo main divDerecho";
+        /* gap: 1rem; */
+    }
+
+.divIzquierdo, .main, .divDerecho {
+        border: 1px solid #ccc;
+        display: grid;
+    }
+
+.divIzquierdo img{
+    width: 130px;
+    
+}
+
+.divIzquierdo nav ul li{
+    list-style: none;
+
+}
+
+.main{
+    display: flex;
+
+}
+
+.divDerecho{
+    display: flex;
+
+}
+
+.divDerecho li a{
+    text-decoration: none;
+}
+
+.divDerecho ul li{
+    list-style: none;
+}
+
+.divDerecho img{
+    width: 50px;
+    height: 50px;
+}
+
+.suggestionPerfil{
+    display: flex;
+    align-items: center;
+}
+.suggestionPerfil h3, .suggestionPerfil p{
+    margin: 0px;
+    padding: 0px;
+}
+
+</style>
+
+<!-- HTML CODE -->
+<body>
+<div class="container">
+
+<!-- DIV IZQUIERDO -->
+    <div class="divIzquierdo">
+        <nav>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png" alt="instagram">
+            <ul>
+                <li>Home</li>
+                <li>Search</li>
+                <li>Explore</li>
+                <li>Messages</li>
+                <li>Notifications</li>
+                <li>Create</li>
+                <li>Profile</li>
+            </ul>
+        </nav>
+    </div>
+
+<!-- MAIN -->
+    <div class="main">
+        <div>
+        <h4>New Posts</h4>
+        </div>
+
+        <div>
+
+        </div>
+        
+
+    </div>
+
+<!-- DIV DERECHO -->
+   <div class="divDerecho">
+      <div>
+        <div>
+            <h3>Suggestions for you</h3>
+            <a href="#seeAll">See All</a>
+        </div>
+        <ul>     
+            <li class="suggestionPerfil">
+                <img src="https://www.kiopromotional.com/5343-large_default/alfombrilla-redonda-esp.jpg" alt="perfil sugerido">
+                <div>
+                <h3>perfil 1</h3>
+                <p>texto pequeño debajo</p>
+                </div>
+                <a href="#follow">Follow</a>
+            </li>
+
+           
+            
+        </ul>
+      </div>
+   </div>
+</div>
+</body>
+
+
+</html>
