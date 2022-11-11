@@ -4,60 +4,119 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Spotify Clone</title>
+    <title>Spotify Clone - Berta B</title>
 
    <!-- css link -->
    <link rel="stylesheet" href="./styles/style.css" />
     <!-- don't forget to link your styles -->
   </head>
   
-  <body>
+ <body>
   <!-- Iteration 1: Navbar -->
-  <header>
-    <img src="./images/spotify-logo.png" alt="spotifyLogo">
+  <header class="js-example">
+    
+    <img class="spotify-logo" src="./images/spotify-logo.png" alt="spotifyLogo">
+      
     <nav>
-    <ul>
-      <li>Premium</li>
-      <li>Discover</li>
-      <li>Help</li>
-      <li>Download</li>
-    </ul>
+      <ul>
+        <li><a href="#Premium">Premiu</a></li>
+        <li><a href="#Premium">Discover</a></li>
+        <li><a href="#Premium">Help</a></li>
+        <li><a href="#Premium">Download</a></li>
+      </ul>
     </nav>
   </header>
+
+
 <!-- Iteration 2: Large image background with text -->
-  <section id="image">
-    <h1>Music for everyone.</h1>
-    <p>Spotify is now free on moblie, tablet and computer.</p>
-    <p>Listen to the right music, wherever you are.</p>
+  <section class="img-container">
+    <img id="img-back" src="./images/landing.jpg" alt="">
+    <div class="centered-text">
+      <span class="centered-title">Music is for everyone</span>
+      <br />
+      <span class="centered-subtitel">Spotify is now free on moblie, tablet and computer.</span>
+      <br />
+      <span class="centered-subtitel">Listen to the right music, wherever you are.</span>
+    </div>
   </section>
 
 <!-- Iteration 3: Whats is on Spotify section -->
   <section id="whatsOn">
-    <h2>What’s on Spotify?</h2>
-      <div>Millions of Songs</div>
-      <p>There are millions of songs on Spotify</p>
-   
-      <div>HD Music</div>
-      <p>Listen to music as if you were listening live</p>
+    <h2><span>What’s on Spotify?</span></h2>
+
+    <!-- Elemento padre con classes externas del div -->
+    <div class="container">
       
-      <div>Stream Everywhere</div>
+      <div class="internal-div">
+      <img src="./images/music-icon.png" alt="music icon">
+      <h4>Millions of Songs</h4>
+      <p>There are millions of songs on Spotify</p>
+      </div>
+    
+      <div class="internal-div">
+      <img src="./images/high-quality-icon.png" alt="hq icon">
+      <h4>HD Music</h4>
+      <p>Listen to music as if you were listening live</p>
+      </div>
+      
+      <div class="internal-div">
+      <img src="./images/devices-icon.png" alt="device icon">
+      <h4>Stream Everywhere</h4>
       <p>Stream music on your smartphone, tablet or computer</p>
+      </div>
+
+    </div>
   </section>
 
   <!-- Iteration 4: The green section -->
   <section id="greenSection">
-    <h2>It’s as yeezy as Kanye West.</h2>
-    <div>Search</div>
-    <p>Know what you want to listen to? Just search and hit play.</p>
-
-    <div>Browse</div>
-    <p>Check out the
+    
+    <!-- Elemento padre con classes externas del div -->
+    <div class ="internal-div">
+      <h1><span>It’s as yeezy as Kanye West.</span></h1>
+      <h2>Search</h2>
+      <p>Know what you want to listen to? Just search and hit play.</p>
+           
+      <h2>Browse</h2>
+      <p>Check out the
       latest charts, brand new releases and great playlists for right now </p>
+      
 
-    <div>Discover</div>
-    <p>Enjoy new music every Monday with your
+      <h2>Discover</h2>
+      <p>Enjoy new music every Monday with your
       own personal playlist. Or sit back and enjoy Radio.</p>
+    
+    </div>
+
+    <div class ="internal-div2">
+      <img class="white-spotify" src="./images/spotify-icon-white.png" class="whiteIcon" alt="Icont White">
+    </div>
+
+    <div class ="internal-div3">
+      <img src="./images/spotify-app.jpg" class="app" alt="app">
+    </div>
+
+  
+
   </section>
+
+  <script>
+
+    const changeHaderColor = document.querySelector(".js-example");
+
+    window.onscroll = function () {
+      const scroll = window.pageYOffset
+
+      if (scroll > 600) {
+        changeHaderColor.classList.add("js-background")
+      }
+      else {
+        changeHaderColor.classList.remove("js-background");
+      }
+    } 
+
+  </script>
+  
 
            
   </body>

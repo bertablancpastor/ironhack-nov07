@@ -7,43 +7,253 @@ White: #FFF
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
+/* general styling */
 *{
+    box-sizing: border-box;
     margin:0;
     padding:0;
-}
-body{
-    font-family: "Roboto" sans-serif ;
-}
-
-img{
-    height: 30px;
-
-}
-
-header{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: flex-start;
-	align-content: center;
-}
-ul{
-    list-style: none;
     
 }
 
-li{
-    display: inline;
+body{
+    font-family: "Roboto", sans-serif ;
+    color: #1A1A1A;
+}
+/* header section */
+/* 
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+        display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: #fff;
+} */
+
+
+.js-example{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    /* flex properties */
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: center; */
+    /* padding: 5px;
+    margin: 10px; */
+    background-color: #fff;
 }
 
-#image {
-    background-image: url("../images/landing.jpg");
+.js-background{
+    background-color: #00B172 !important;
+}
+
+.spotify-logo{
+    width: 160px;
+    padding:20px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 16px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px; 
+    margin-right: 1rem;
+   }
+
+
+
+.img-container {
+    position: relative;
+    text-align:center;
+    color:white;
+        /* background-image: url("../images/landing.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
+    color: #fff; */
+}
+
+#img-back {
+    /* object-fit: cover; */
+    width: 100%;
+    height: 650px;
+    padding-top: 5vh;
+    background-size: cover;
+}
+
+.centered-text{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.centered-title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.centered-subtitle{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 
+#whatsOn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+}
+#whatsOn h2 span{
+    border-bottom: 4px solid #00B172;
+
+
+}
+
+#whatsOn h2 {
+    padding: 5px;
+    width: 30%;
+    margin-bottom: 5rem;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#whatsOn h4{
+    color: #00B172;
+
+}
+
+#whatsOn p{
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#whatsOn img{
+    width: 120px;
+    margin-bottom: 2rem;
+}
+
+#whatsOn .container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+#whatsOn .internal-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+#greenSection{
+    background-color: #00B172;
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #fff;
+    margin: 3%;
+    padding: 3%;
+    height: auto;
+    text-align: center;
+    /* position: relative; */
+}
+
+#greenSection h1{
+    width: 90%;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: left;
+}
+
+#greenSection h1 span{
+    border-bottom: 4px solid #fff;
+}
+
+#greenSection h2{
+    font-weight: 500;
+}
+
+#greenSection p{
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+
+#greenSection .app{
+    width: 55%;
+}
+
+#greenSection .white-spotify{
+    width: 9vw;
+}
+
+#greenSection .external-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+#greenSection .internal-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 45%;
+}
+
+#greenSection .internal-div2{
+    width: 10%;
+   
+}
+
+#greenSection .internal-div3{
+    width: 45%;
+   
+}
