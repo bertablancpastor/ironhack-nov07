@@ -2,16 +2,15 @@
 <p>Me llamo Berta, y estoy assistiendo en este bootcamp para aprendre lo maximo posible y así poder hacer un giro en el campo professional.
 <hr/>
 
-## Día 1 - 07NOV2022 📆
-#Iniciar README
-## Terminator | Comandos GIT 
+## SEMANA-1
+### Día 1 - 07NOV2022 📆
+#### Iniciar README
+##### Terminator | Comandos GIT 
 <p>Para subir los cambios a GIT se deben hacer los siguientes passos</p>
 <ol>
 <li>Añadir todos los cambios: <strong> git add . </strong> </li> o añadir cambios individual: <strong> git add "nombre archivo" </strong>
 <li>Añadir comentario al commit: <strong> git commit -m "Texto cambios".</strong></li>
 <li>Empujar los cambios al repositorio: <strong> git push origin main</strong></li>
-
-
 
 `Añadir` todos tus cambios:
 
@@ -42,7 +41,7 @@ git push origin "nombre del branch/rama que estaremos apuntando"
 ```bash
 git push
 ```
-## Html 
+##### Html 
 <p>01-basic-layout</p>
 <p>02-meta-tags</p>
 <p>03-typography</p>
@@ -51,9 +50,9 @@ git push
 
 <hr />
 
-## Día 2 - 08NOV2022 📆
-#Actualizar README
-# Html
+### Día 2 - 08NOV2022 📆
+#### Actualizar README
+##### Html
 <p>06-basic-layout</p>
 <p>07-layout</p>
 <p>08-layout-example</p>
@@ -63,7 +62,7 @@ git push
 <p>12-classes</p>
 <p>13-semantic-example-consolidated</p>
 
-# CSS
+##### CSS
 <p>01-basics<p>
 <p>02-selectors<p>
 <p>03-fonts<p>
@@ -71,31 +70,31 @@ git push
 <p>05-colors<p>
 <p>06-borders-background<p>
 
-# Practice Lab
+##### Practice Lab
 <p>Ironskydive<p>
 
 <hr />
 
-## Día 3 - 09NOV2022 📆
-#Actualizar README
+### Día 3 - 09NOV2022 📆
+#### Actualizar README
 
-# Leson section Html 
+##### Leson section Html 
 <p>14-forms</p>
 
-# Leson section CSS
+##### Leson section CSS
 <p>07-box-model<p>
 <p>08-float-alginl<p>
 <p>09-links-buttons<p>
 
-# Practice Lab
+##### Practice Lab
 <p>Clone recipies<p>
 
 <hr/>
 
-## Día 4 - 10NOV2022 📆
-#Actualizar README
+### Día 4 - 10NOV2022 📆
+#### Actualizar README
 
-# CSS
+##### CSS
 <p>10-menu-styling<p>
 <p>11-position<p>
 <p>12-inline-vs-block<p>
@@ -104,21 +103,33 @@ git push
 <p>14-media-query-exemple<p>
 <p>16-flex-basics<p>
 
-# Practice Lab
+##### Practice Lab
 <p>Clone Spotify<p>
 
 <hr />
 
-## Día 5 - 11NOV2022 📆
-#Actualizar README
-# CSS
-<p>17-grud-basic<p>
+### Día 5 - 11NOV2022 📆
+#### Actualizar README
+##### CSS
+<p>17-grid-basic<p>
 
-# Practice Lab
+##### Practice Lab
 <p>Clone Spotify<p>
+<p>Grid Basic Example 1</p>
+<p>Grid Basic Example 2</P>
 
-# Other
+
+##### Other
 <p>Visualización prsentación grupo fullstack: "Apadrina tu mascota"</p>
 <hr />
+
+<hr />
+
+# SEMANA-2
+### Día 6 - 14NOV2022 📆
+#### Actualizar README
+##### JS
+<p>01-js-basics</p>
+
 
 

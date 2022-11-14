@@ -1,0 +1,1 @@
+console.log("JS introducido con un link de la terminal");
