@@ -130,6 +130,9 @@ git push
 #### Actualizar README
 ##### JS
 <p>01-js-basics</p>
+<p>02-js-master</p>
+<p>03-intro</p>
+<p>04-data-types</p>
 
 
 
