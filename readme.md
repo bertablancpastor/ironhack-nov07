@@ -119,7 +119,7 @@ git push
 <p>Grid Basic Example 2</P>
 
 
-##### Other
+##### ---- Other ----
 <p>Visualización prsentación grupo fullstack: "Apadrina tu mascota"</p>
 <hr />
 
@@ -137,7 +137,7 @@ git push
 <p>06-operators</p>
 <p>07-conditionals</p>
 
-##### Practice Lab
+##### ---- Practice Lab ----
 <p>JS Basic Algorithms<p>
 
 
@@ -145,10 +145,10 @@ git push
 
 ### Día 7 - 15NOV2022 📆
 #### Actualizar README
-##### Leson JS
+##### ---- Leson JS ----
 <p>08-</p>
 
-##### Practice Lab
+##### ---- Practice Lab ----
 <p>JS Basic Algorithms<p>
 
 
