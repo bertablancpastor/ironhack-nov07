@@ -5,7 +5,7 @@
 ## SEMANA-1
 ### Día 1 - 07NOV2022 📆
 #### Iniciar README
-##### Terminator | Comandos GIT 
+##### ---- Comandos GIT ----
 <p>Para subir los cambios a GIT se deben hacer los siguientes passos</p>
 <ol>
 <li>Añadir todos los cambios: <strong> git add . </strong> </li> o añadir cambios individual: <strong> git add "nombre archivo" </strong>
@@ -41,7 +41,7 @@ git push origin "nombre del branch/rama que estaremos apuntando"
 ```bash
 git push
 ```
-##### Html 
+##### ---- Leson Html ----
 <p>01-basic-layout</p>
 <p>02-meta-tags</p>
 <p>03-typography</p>
@@ -52,7 +52,7 @@ git push
 
 ### Día 2 - 08NOV2022 📆
 #### Actualizar README
-##### Html
+##### ---- Leson Html ----
 <p>06-basic-layout</p>
 <p>07-layout</p>
 <p>08-layout-example</p>
@@ -62,7 +62,7 @@ git push
 <p>12-classes</p>
 <p>13-semantic-example-consolidated</p>
 
-##### CSS
+##### ---- Leson CSS ----
 <p>01-basics<p>
 <p>02-selectors<p>
 <p>03-fonts<p>
@@ -78,10 +78,10 @@ git push
 ### Día 3 - 09NOV2022 📆
 #### Actualizar README
 
-##### Leson section Html 
+##### ---- Leson Html ----
 <p>14-forms</p>
 
-##### Leson section CSS
+##### ---- Leson CSS ----
 <p>07-box-model<p>
 <p>08-float-alginl<p>
 <p>09-links-buttons<p>
@@ -94,7 +94,7 @@ git push
 ### Día 4 - 10NOV2022 📆
 #### Actualizar README
 
-##### CSS
+##### ---- Leson CSS ----
 <p>10-menu-styling<p>
 <p>11-position<p>
 <p>12-inline-vs-block<p>
@@ -103,17 +103,17 @@ git push
 <p>14-media-query-exemple<p>
 <p>16-flex-basics<p>
 
-##### Practice Lab
+##### ---- Practice Lab ----
 <p>Clone Spotify<p>
 
 <hr />
 
 ### Día 5 - 11NOV2022 📆
 #### Actualizar README
-##### CSS
+##### ---- Leson CSS ----
 <p>17-grid-basic<p>
 
-##### Practice Lab
+##### ---- Practice Lab ----
 <p>Clone Spotify<p>
 <p>Grid Basic Example 1</p>
 <p>Grid Basic Example 2</P>
@@ -128,7 +128,7 @@ git push
 # SEMANA-2
 ### Día 6 - 14NOV2022 📆
 #### Actualizar README
-##### JS
+##### ---- Leson JS ----
 <p>01-js-basics</p>
 <p>02-js-master</p>
 <p>03-intro</p>
@@ -145,7 +145,7 @@ git push
 
 ### Día 7 - 15NOV2022 📆
 #### Actualizar README
-##### JS
+##### Leson JS
 <p>08-</p>
 
 ##### Practice Lab
