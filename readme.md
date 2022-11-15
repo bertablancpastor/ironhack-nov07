@@ -133,6 +133,23 @@ git push
 <p>02-js-master</p>
 <p>03-intro</p>
 <p>04-data-types</p>
+<p>05-variable</p>
+<p>06-operators</p>
+<p>07-conditionals</p>
+
+##### Practice Lab
+<p>JS Basic Algorithms<p>
+
+### Día 7 - 15NOV2022 📆
+#### Actualizar README
+##### JS
+<p>01-js-basics</p>
+<p>02-js-master</p>
+
+
+##### Practice Lab
+<p>JS Basic Algorithms<p>
+
 
 
 
