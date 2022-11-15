@@ -140,12 +140,13 @@ git push
 ##### Practice Lab
 <p>JS Basic Algorithms<p>
 
+
+<hr />
+
 ### Día 7 - 15NOV2022 📆
 #### Actualizar README
 ##### JS
-<p>01-js-basics</p>
-<p>02-js-master</p>
-
+<p>08-</p>
 
 ##### Practice Lab
 <p>JS Basic Algorithms<p>
