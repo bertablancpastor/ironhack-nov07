@@ -146,10 +146,20 @@ git push
 ### Día 7 - 15NOV2022 📆
 #### Actualizar README
 ##### ---- Leson JS ----
-<p>08-</p>
+<p>08-functions</p>
+<p>09-loops</p>
+<p>10-array-methodos</p>
 
 ##### ---- Practice Lab ----
 <p>JS Basic Algorithms<p>
+
+### Día 8 - 16NOV2022 📆
+#### Actualizar README
+##### ---- Leson JS ----
+<p>11-</p>
+
+##### ---- Practice Lab ----
+<p>JS Functions&Arrays<p>
 
 
 

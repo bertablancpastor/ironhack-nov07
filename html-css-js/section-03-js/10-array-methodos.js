@@ -1,6 +1,6 @@
 const arr = [1,2,3,4,5,1];
 
-const animals = ["dog", "cat", "fish"]
+const animals = ["dog", "cat", "fish", "cow"]
 
 const mapped = arr.map((param) => param + 20);
 console.log(mapped);
@@ -64,3 +64,40 @@ const add = (arrAdd) => {
 
 
 console.log(add(arrAdd));
+
+// find
+
+const found = arr.find((element) => element > 2);
+console.log(found);
+
+const indexFinder = animals.findIndex((element) => element === "cow");
+console.log(indexFinder);
+
+const fillMode = new Array (4);
+console.log(fillMode);
+console.log(fillMode.fill(["Berta"]));
+
+
+const slicedArr = ["a", "b", "c", "d", "e", "f"];
+const sliced = slicedArr.slice(2,3);
+console.log(sliced);
+
+
+let revArr = [1, 2, 3]
+console.log(revArr.reverse());
+
+// AÑADE AL FINAL
+console.log(animals.push("elephant"));
+console.log(animals);
+
+// ELIMINA AL FINAL
+console.log(animals.pop());
+console.log(animals);
+
+// ELIMINA AL INICIO
+animals.shift()
+console.log(animals);
+
+//AÑADE AL INICIO
+animals.unshift("elephant")
+console.log(animals);
