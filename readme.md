@@ -151,15 +151,47 @@ git push
 <p>10-array-methodos</p>
 
 ##### ---- Practice Lab ----
-<p>JS Basic Algorithms<p>
+<p>Start JS Basic Algorithms<p>
 
 ### Día 8 - 16NOV2022 📆
 #### Actualizar README
 ##### ---- Leson JS ----
-<p>11-</p>
+<p>11-dom-manipulation</p>
+<p>12-dom-manipulation-2</p>
 
 ##### ---- Practice Lab ----
-<p>JS Functions&Arrays<p>
+<p>Finish JS Basic Algorithms<p>
+<p>Start JS Ironhack<p>
+
+### Día 9 - 17NOV2022 📆
+#### Actualizar README
+##### ---- Leson JS ----
+<p>14-</p>
+
+##### ---- Practice Lab ----
+<p>Finish JS Ironhack<p>
+
+### Día 10 - 18NOV2022 📆
+#### Actualizar README
+##### ---- Leson JS ----
+<p>14-</p>
+
+##### ---- Practice Lab ----
+<p>Finish JS Ironhack<p>
+<hr />
+
+
+<hr />
+
+# SEMANA-3
+### Día 11 - 21NOV2022 📆
+#### Actualizar README
+##### ---- Leson JS ----
+<p>01-js-basics</p>
+
+
+##### ---- Practice Lab ----
+<p>JS Basic Algorithms<p>
 
 
 
