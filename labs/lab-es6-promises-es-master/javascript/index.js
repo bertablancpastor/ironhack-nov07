@@ -61,41 +61,62 @@ getInstruction("mashedPotatoes", 0, (step1) => {
 // Iteration 3 using async/await
 
 const makeBroccoli = async () => {
-  let result = await obtainInstruction("broccoli",0);
-  document.querySelector("#broccoli").innerHTML += `<li>${result}</li>`;
-
-  let result1 = await obtainInstruction("broccoli",1);
+  let result1 = await obtainInstruction("broccoli", 0);
   document.querySelector("#broccoli").innerHTML += `<li>${result1}</li>`;
 
-  let result2 = await obtainInstruction("broccoli",2);
+  let result2 = await obtainInstruction("broccoli", 1);
   document.querySelector("#broccoli").innerHTML += `<li>${result2}</li>`;
 
-  let result3 = await obtainInstruction("broccoli",3);
+  let result3 = await obtainInstruction("broccoli", 2);
   document.querySelector("#broccoli").innerHTML += `<li>${result3}</li>`;
 
-  let result4 = await obtainInstruction("broccoli",4);
+  let result4 = await obtainInstruction("broccoli", 3);
   document.querySelector("#broccoli").innerHTML += `<li>${result4}</li>`;
 
-  let result5 = await obtainInstruction("broccoli",5);
+  let result5 = await obtainInstruction("broccoli", 4);
   document.querySelector("#broccoli").innerHTML += `<li>${result5}</li>`;
 
-  let result6 = await obtainInstruction("broccoli",6);
+  let result6 = await obtainInstruction("broccoli", 5);
   document.querySelector("#broccoli").innerHTML += `<li>${result6}</li>`;
 
-  let result7 = await obtainInstruction("broccoli",1);
-  document.querySelector("#broccoli").innerHTML += `<li>Broccoli is ready!</li>`;
+  let result7 = await obtainInstruction("broccoli", 6);  
+  document.querySelector("#broccoli").innerHTML += `<li>${result7}</li>`;
+  document.querySelector("#broccoli").innerHTML += `<li>Stake is ready!</li>`;
   document.querySelector("#broccoliImg").removeAttribute("hidden");
+
+  
 };
 
 makeBroccoli();
 
 
 // Bonus 2 - Promise all
-let brussels1 = obtainInstruction("brusselsSprouts",0);
-document.querySelector("#broccoli").innerHTML += `<li>${brussels1}</li>`;
-let brussels2 = obtainInstruction("brusselsSprouts",1);
-document.querySelector("#broccoli").innerHTML += `<li>${brussels2}</li>`;
+// let brussels1 = obtainInstruction("brusselsSprouts",0);
+// document.querySelector("#broccoli").innerHTML += `<li>${brussels1}</li>`;
+// let brussels2 = obtainInstruction("brusselsSprouts",1);
+// document.querySelector("#broccoli").innerHTML += `<li>${brussels2}</li>`;
 
-Promise.all([brussels1, brussels2]).then((brussels) => {
-  console.log(brussels);
-});
+// Promise.all([brussels1, brussels2]).then((brussels) => {
+//   console.log(brussels);
+// });
+
+const paso0 = obtainInstruction("brusselsSprouts", 0);
+const paso1 = obtainInstruction("brusselsSprouts", 1);
+const paso2 = obtainInstruction("brusselsSprouts", 2);
+const paso3 = obtainInstruction("brusselsSprouts", 3);
+const paso4 = obtainInstruction("brusselsSprouts", 4);
+const paso5 = obtainInstruction("brusselsSprouts", 5);
+const paso6 = obtainInstruction("brusselsSprouts", 6);
+const paso7 = obtainInstruction("brusselsSprouts", 7);
+
+Promise.all ([paso0,paso1,paso2,paso3,paso4,paso5,paso6,paso7])
+.then
+((valor) => {
+  valor.forEach((instruccion)=> {
+    document.querySelector("#brusselsSprouts").innerHTML += `<li>${instruccion}</li>`
+
+    });
+    document.querySelector("#brusselsSprouts").innerHTML += `<li>The brussels Sprouts are ready!</li>`;
+    document.querySelector("#brusselsSproutsImg").removeAttribute("hidden")
+  })
+.catch((error) => console.log(error));
