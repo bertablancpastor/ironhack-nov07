@@ -189,10 +189,12 @@ git push
 #### Actualizar README
 ##### ---- Leson JS ----
 <p>15-fetch-api</p>
-
+#### ---- Others ----
+<p> Trello</p>
 
 ##### ---- Practice Lab ----
 <p>Finish Promises<p>
+<p>Inicio Mid Term Project<p>
 
 
 
