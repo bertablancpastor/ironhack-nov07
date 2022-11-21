@@ -166,7 +166,7 @@ git push
 ### Día 9 - 17NOV2022 📆
 #### Actualizar README
 ##### ---- Leson JS ----
-<p>14-</p>
+<p>13-Browser Events</p>
 
 ##### ---- Practice Lab ----
 <p>Finish JS Ironhack<p>
@@ -174,10 +174,11 @@ git push
 ### Día 10 - 18NOV2022 📆
 #### Actualizar README
 ##### ---- Leson JS ----
-<p>14-</p>
+<p>14-Async class</p>
 
 ##### ---- Practice Lab ----
 <p>Finish JS Ironhack<p>
+<p>Start Promises<p>
 <hr />
 
 
@@ -187,11 +188,11 @@ git push
 ### Día 11 - 21NOV2022 📆
 #### Actualizar README
 ##### ---- Leson JS ----
-<p>01-js-basics</p>
+<p>15-fetch-api</p>
 
 
 ##### ---- Practice Lab ----
-<p>JS Basic Algorithms<p>
+<p>Finish Promises<p>
 
 
 
