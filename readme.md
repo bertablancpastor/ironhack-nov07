@@ -189,12 +189,56 @@ git push
 #### Actualizar README
 ##### ---- Leson JS ----
 <p>15-fetch-api</p>
-#### ---- Others ----
+
+##### ---- Others ----
 <p> Trello</p>
 
 ##### ---- Practice Lab ----
 <p>Finish Promises<p>
 <p>Inicio Mid Term Project<p>
+
+### Día 12 - 22NOV2022 📆
+#### Actualizar README
+##### ---- Leson CSS ----
+<p>20-css-variable</p>
+<p>21-transitions</p>
+<p>22-keyframes</p>
+
+##### ---- Practice Lab ----
+<p>2n dia Mid Term Project<p>
+
+### Día 13 - 23NOV2022 📆
+#### Actualizar README
+
+##### ---- Practice Lab ----
+<p>3er dia Mid Term Project<p>
+
+### Día 14 - 24NOV2022 📆
+#### Actualizar README
+
+##### ---- Practice Lab ----
+<p>4º dia Mid Term Project<p>
+
+### Día 15 - 25NOV2022 📆
+#### Actualizar README
+
+##### ---- Practice Lab ----
+<p>5º dia Mid Term Project<p>
+<p>Presentación Mid Term Project<p>
+
+<hr />
+
+# SEMANA-4
+### Día 16 - 28NOV2022 📆
+#### Actualizar README
+##### ---- Leson VUE ----
+<p>My First Component</p>
+<p>2-TextDirection</p>
+<p>3-HtmlDierection</p>
+
+##### ---- Others ----
+
+
 
 
 

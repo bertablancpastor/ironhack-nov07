@@ -1,20 +1,28 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import myFirstComponentVue from './components/vueBasics/myFirstComponent.vue';
+import TextDirectionVue from './components/vueBasics/2-TextDirection.vue'
+import ToDoItemVue from './components/vueBasics/ToDoItem.vue';
+import AttribuiteBrindingVue from './components/vueBasics/4-attribuite-brinding.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
+  <header>
+    
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="My name is Berta Blanc"/>
     </div>
   </header>
-
+  
   <main>
-    <TheWelcome />
+    <myFirstComponentVue/>
+    <TextDirectionVue/>
+    <ToDoItemVue/>
+    <AttribuiteBrindingVue/>
   </main>
+
+
 </template>
 
 <style scoped>
