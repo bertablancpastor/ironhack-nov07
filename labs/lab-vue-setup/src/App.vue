@@ -7,7 +7,7 @@ import MyComponentVueSetup from './components/vueBasics/MyComponentVueSetup.vue'
   <header>
   
     <div class="wrapper">
-      <HelloWorld msg="Vue Setup" />
+      <HelloWorld msg="Lab Vue Setup" />
     </div>
   </header>
 
