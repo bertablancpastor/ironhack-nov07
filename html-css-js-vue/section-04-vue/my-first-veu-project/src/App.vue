@@ -6,6 +6,7 @@ import ToDoItemVue from './components/vueBasics/ToDoItem.vue';
 import AttribuiteBrindingVue from './components/vueBasics/4-attribuite-brinding.vue';
 import ConditionalRendering from './components/vueBasics/5-ConditionalRendering.vue';
 import EjerciciosConditionalRenderingVue from './components/vueBasics/EjerciciosConditionalRendering.vue';
+import EjerciciosIteratingElementsVue from './components/vueBasics/EjerciciosIteratingElements.vue';
 </script>
 
 <template>
@@ -23,7 +24,8 @@ import EjerciciosConditionalRenderingVue from './components/vueBasics/Ejercicios
     <ToDoItemVue/>
     <AttribuiteBrindingVue/>
     <ConditionalRendering/> -->
-    <EjerciciosConditionalRenderingVue />
+    <!-- <EjerciciosConditionalRenderingVue /> -->
+    <EjerciciosIteratingElementsVue />
   </main>
   
 
