@@ -4,6 +4,8 @@ import myFirstComponentVue from './components/vueBasics/myFirstComponent.vue';
 import TextDirectionVue from './components/vueBasics/2-TextDirection.vue'
 import ToDoItemVue from './components/vueBasics/ToDoItem.vue';
 import AttribuiteBrindingVue from './components/vueBasics/4-attribuite-brinding.vue';
+import ConditionalRendering from './components/vueBasics/5-ConditionalRendering.vue';
+import EjerciciosConditionalRenderingVue from './components/vueBasics/EjerciciosConditionalRendering.vue';
 </script>
 
 <template>
@@ -11,17 +13,19 @@ import AttribuiteBrindingVue from './components/vueBasics/4-attribuite-brinding.
   <header>
     
     <div class="wrapper">
-      <HelloWorld msg="My name is Berta Blanc"/>
+      <HelloWorld msg="Vue"/>
     </div>
   </header>
   
   <main>
-    <myFirstComponentVue/>
+    <!-- <myFirstComponentVue/>
     <TextDirectionVue/>
     <ToDoItemVue/>
     <AttribuiteBrindingVue/>
+    <ConditionalRendering/> -->
+    <EjerciciosConditionalRenderingVue />
   </main>
-
+  
 
 </template>
 

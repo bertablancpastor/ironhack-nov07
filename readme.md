@@ -236,7 +236,16 @@ git push
 <p>2-TextDirection</p>
 <p>3-HtmlDierection</p>
 
-##### ---- Others ----
+##### ---- Practice Lab ----
+<p>Vue Setup<p>
+
+### Día 17 - 29NOV2022 📆
+#### Actualizar README
+##### ---- Leson VUE ----
+<p>My First Component</p>
+
+##### ---- Practice Lab ----
+<p>Vue Setup<p>
 
 
 
