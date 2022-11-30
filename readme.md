@@ -232,7 +232,8 @@ git push
 ### Día 16 - 28NOV2022 📆
 #### Actualizar README
 ##### ---- Leson VUE ----
-<p>My First Component</p>
+<p>0-My First Component</p>
+<p>1-TextInterpolation</p>
 <p>2-TextDirection</p>
 <p>3-HtmlDierection</p>
 
@@ -242,10 +243,23 @@ git push
 ### Día 17 - 29NOV2022 📆
 #### Actualizar README
 ##### ---- Leson VUE ----
-<p>My First Component</p>
+<p>4-AttributeBinding</p>
+<p>5-ConditionalRendering</p>
+<p>6-IteratingElements</p>
 
 ##### ---- Practice Lab ----
 <p>Vue Setup<p>
+<p>Vue Basics<p>
+
+### Día 18 - 30NOV2022 📆
+#### Actualizar README
+##### ---- Leson VUE ----
+<p>4-AttributeBinding</p>
+
+
+##### ---- Practice Lab ----
+<p>Vue Basics<p>
+
 
 
 
