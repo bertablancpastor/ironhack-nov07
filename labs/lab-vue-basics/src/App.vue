@@ -5,6 +5,7 @@ import Footer from './components/Footer.vue';
 import iteration2 from './components/iteration2.vue';
 import iteration3 from './components/iteration3.vue';
 import iteration4 from './components/iteration4.vue';
+import iteration5 from './components/iteration5.vue';
 
 
 
@@ -24,6 +25,7 @@ import iteration4 from './components/iteration4.vue';
     <iteration2 />
     <iteration3 />
     <iteration4 />
+    <iteration5 />
   </main>
   
 </template>
