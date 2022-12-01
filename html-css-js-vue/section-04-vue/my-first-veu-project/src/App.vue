@@ -7,6 +7,8 @@ import AttribuiteBrindingVue from './components/vueBasics/4-attribuite-brinding.
 import ConditionalRendering from './components/vueBasics/5-ConditionalRendering.vue';
 import EjerciciosConditionalRenderingVue from './components/vueBasics/EjerciciosConditionalRendering.vue';
 import EjerciciosIteratingElementsVue from './components/vueBasics/EjerciciosIteratingElements.vue';
+import EjercicioSlot from './components/vueBasics/EjercicoSlot.vue';
+import EjercicioSlot1 from './components/vueBasics/EjercicioSlot1.vue';
 </script>
 
 <template>
@@ -25,7 +27,9 @@ import EjerciciosIteratingElementsVue from './components/vueBasics/EjerciciosIte
     <AttribuiteBrindingVue/>
     <ConditionalRendering/> -->
     <!-- <EjerciciosConditionalRenderingVue /> -->
-    <EjerciciosIteratingElementsVue />
+    <!-- <EjerciciosIteratingElementsVue /> -->
+    <EjercicioSlot />
+    <EjercicioSlot1 />
   </main>
   
 
