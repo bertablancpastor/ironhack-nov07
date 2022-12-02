@@ -1,0 +1,15 @@
+
+[
+    {"answer": "no",
+    "return": "Que raro eres",
+    "image": "https://t3.ftcdn.net/jpg/03/36/81/88/360_F_336818845_1tvrNYhwr19LfGiC4BDAeCJzm0mVHH48.jpg"},
+
+    {"answer": "si",
+    "return": "Yey, te gusta la pizza",
+    "image": "https://t3.ftcdn.net/jpg/03/36/81/88/360_F_336818845_1tvrNYhwr19LfGiC4BDAeCJzm0mVHH48.jpg"},
+
+    {"answer": "",
+    "return": "Whaaat!",
+    "image": "https://t3.ftcdn.net/jpg/03/36/81/88/360_F_336818845_1tvrNYhwr19LfGiC4BDAeCJzm0mVHH48.jpg"}
+
+]

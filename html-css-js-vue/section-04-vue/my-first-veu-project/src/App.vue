@@ -10,10 +10,13 @@ import EjerciciosIteratingElementsVue from './components/vueBasics/EjerciciosIte
 import EjercicioSlot from './components/vueBasics/EjercicoSlot.vue';
 import EjercicioSlot1 from './components/vueBasics/EjercicioSlot1.vue';
 import EjercicioForm from './components/vueBasics/EjercicioForm.vue';
+import EjercicioWatches from './components/vueBasics/EjercicioWatches/EjercicioWatches.vue'
+import EjercicioComponents from "./components/vueBasics/11-Events/ParentComponent.vue"
+import General from './components/vueBasics/11-Events/General.vue';
 </script>
 
 <template>
-
+<div>
   <header>
     
     <div class="wrapper">
@@ -31,10 +34,14 @@ import EjercicioForm from './components/vueBasics/EjercicioForm.vue';
     <!-- <EjerciciosIteratingElementsVue /> -->
     <!-- <EjercicioSlot />
     <EjercicioSlot1 /> -->
-    <EjercicioForm />
+    <!-- <EjercicioForm /> -->
+    <!-- <EjercicioWatches /> -->
+    <!-- <ParentComponent /> -->
+    <General />
+
   </main>
   
-
+</div>
 </template>
 
 <style scoped>
