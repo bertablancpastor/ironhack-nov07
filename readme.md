@@ -197,6 +197,7 @@ git push
 <p>Finish Promises<p>
 <p>Inicio Mid Term Project<p>
 
+
 ### Día 12 - 22NOV2022 📆
 #### Actualizar README
 ##### ---- Leson CSS ----
@@ -207,17 +208,20 @@ git push
 ##### ---- Practice Lab ----
 <p>2n dia Mid Term Project<p>
 
+
 ### Día 13 - 23NOV2022 📆
 #### Actualizar README
 
 ##### ---- Practice Lab ----
 <p>3er dia Mid Term Project<p>
 
+
 ### Día 14 - 24NOV2022 📆
 #### Actualizar README
 
 ##### ---- Practice Lab ----
 <p>4º dia Mid Term Project<p>
+
 
 ### Día 15 - 25NOV2022 📆
 #### Actualizar README
@@ -240,6 +244,7 @@ git push
 ##### ---- Practice Lab ----
 <p>Vue Setup<p>
 
+
 ### Día 17 - 29NOV2022 📆
 #### Actualizar README
 ##### ---- Leson VUE ----
@@ -251,14 +256,39 @@ git push
 <p>Vue Setup<p>
 <p>Vue Basics<p>
 
+
 ### Día 18 - 30NOV2022 📆
 #### Actualizar README
 ##### ---- Leson VUE ----
 <p>4-AttributeBinding</p>
-
+<p>5-ConditionalRendering</p>
+<p>6-IteratingElements</p>
 
 ##### ---- Practice Lab ----
 <p>Vue Basics<p>
+<p>Tweets<p>
+
+
+### Día 19 - 01DEC2022 📆
+#### Actualizar README
+##### ---- Leson VUE ----
+<p>7-Methods</p>
+<p>8-ComputedProperties</p>
+<p>9-TwoWayData</p>
+
+##### ---- Practice Lab ----
+<p>Tweets<p>
+
+### Día 20 - 02DEC2022 📆
+#### Actualizar README
+##### ---- Leson VUE ----
+<p>10-Watchers</p>
+<p>11-Events</p>
+<p>12-Hooks</p>
+
+##### ---- Practice Lab ----
+<p>WikiCountries<p>
+
 
 
 

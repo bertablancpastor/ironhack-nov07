@@ -1,7 +1,10 @@
 <script setup>
+import { ref } from "vue";
 import HelloWorld from './components/HelloWorld.vue';
 import MyBio from './components/MyBio.vue';
-import BandCardVue from './components/bandCardComps/BandCard.vue';
+import BandCard from './components/bandCardComps/BandCard.vue';
+import ejercicioComputed from "./components/ejercicioComputed.vue"
+
 
 const bands = ref([
   {
@@ -33,13 +36,13 @@ const bands = ref([
 <div>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="Prop's Class" />
+      <HelloWorld msg="Vue Class" />
     </div>
   </header>
 
   <main>
     <!-- <HelloWorld /> -->
-    <MyBio 
+    <!-- <MyBio 
     name="Berta"
     age="33"
     birthPlace="Barcelona, Barcelona"
@@ -49,23 +52,22 @@ const bands = ref([
     name="Joanet"
     age="36"
     birthPlace="Cadaques,Barcelona"
-     /> 
+     />  -->
 
      <hr />
-    <BandCard
+    <!-- <BandCard
       class="card-band"
       v-for="(band, index) in bands"
       :key="index"
       :bandInfo="band.bandInfo"
       :bandSong="band.popularSong"
       :bandSongInfo="band.popularSongInfo"
-    />
+    />     -->
+       <!-- <ejercicioComputed /> -->
 
-    
-     
-    
-   
- 
+       <ejercicioComputed />
+
+
   </main>
 
 </div>

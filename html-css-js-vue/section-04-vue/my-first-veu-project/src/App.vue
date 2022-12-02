@@ -9,6 +9,7 @@ import EjerciciosConditionalRenderingVue from './components/vueBasics/Ejercicios
 import EjerciciosIteratingElementsVue from './components/vueBasics/EjerciciosIteratingElements.vue';
 import EjercicioSlot from './components/vueBasics/EjercicoSlot.vue';
 import EjercicioSlot1 from './components/vueBasics/EjercicioSlot1.vue';
+import EjercicioForm from './components/vueBasics/EjercicioForm.vue';
 </script>
 
 <template>
@@ -28,8 +29,9 @@ import EjercicioSlot1 from './components/vueBasics/EjercicioSlot1.vue';
     <ConditionalRendering/> -->
     <!-- <EjerciciosConditionalRenderingVue /> -->
     <!-- <EjerciciosIteratingElementsVue /> -->
-    <EjercicioSlot />
-    <EjercicioSlot1 />
+    <!-- <EjercicioSlot />
+    <EjercicioSlot1 /> -->
+    <EjercicioForm />
   </main>
   
 
