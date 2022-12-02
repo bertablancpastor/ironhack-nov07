@@ -18,12 +18,12 @@ Cuando se envíe el formulario imprimiremos la info que se ha mandado con una al
 
     <div>
     <label for="name">Enter Your Name</label>
-    <input type="text" id="name" v-model="formValues.name">
+    <input type="text" id="name" v-model.trim.lazy="formValues.name">
     </div>
 
     <div>
     <label for="email">Enter Your Email</label>
-    <input type="text" id="email" v-model="formValues.email">
+    <input type="text" id="email" v-model.trim.lazy="formValues.email">
     </div>
 
     <div>
@@ -58,18 +58,14 @@ Cuando se envíe el formulario imprimiremos la info que se ha mandado con una al
 
     <div>
         <label for="suggestions">Tienes sugerencias de mejora del festival
-            ? Escribe aquí:</label>
-        <textarea name="suggestions" id="suggestions" cols="30" rows="10" v-model.trim.lazy="formValues.suggestions"></textarea>
+            ?</label>
+        <textarea name="suggestions" id="suggestions" cols="30" rows="10" placeholder="Escribe aqui tus sugerencias..." v-model.trim.lazy="formValues.suggestions"></textarea>
     </div>
 
     <div>
 
         <input type="submit" value="Submit Form">
     </div>
-
-
-
-
   
 </form>
 </div>
